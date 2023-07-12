@@ -1,17 +1,12 @@
+import LoggedIn from "./LoggedIn";
 
+const Button = ({ toggleLogIn }) => {
+  const handleClick = () => {
+    // run the toggleLogIn Prop function that hs been passed down from App.jsx
+    toggleLogIn();
+  };
 
+  return <button onClick={handleClick}>Click Me</button>;
+};
 
-const Button = () => {
-
-    const handleClick = () => {
-        // run the toggleLogIn Prop function that hs been passed down from App.jsx
-    }
-
-    return (
-        
-        <h1>create a button and add handleClick callback </h1>
-        
-    )
-}
-
-export default Button
+export default Button;

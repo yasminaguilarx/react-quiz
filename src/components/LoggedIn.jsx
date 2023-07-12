@@ -1,19 +1,13 @@
+import React from "react";
+import Button from "./Button";
 
+const LoggedIn = ({ toggleLogIn }) => {
+  return (
+    <>
+      <h1>Logged in</h1>
+      <Button toggleLogIn={!toggleLogIn} />
+    </>
+  );
+};
 
-
-
-import React from 'react'
-import Button from './Button'
-
-const LoggedIn = () => {
-
-
-    return (
-        <>
-            <h1>Logged in</h1>
-            <Button />
-        </>
-    )
-}
-
-export default LoggedIn
+export default LoggedIn;
