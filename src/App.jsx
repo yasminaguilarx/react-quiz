@@ -12,7 +12,7 @@ function App() {
 
   const toggleLogIn = () => {
     // should change the state of loggedIn to whatever it's opposite is.
-    setLoggedIn(true);
+    setLoggedIn(false);
     // Remember to pass this prop down to the button component, and hook it up there.
   };
 

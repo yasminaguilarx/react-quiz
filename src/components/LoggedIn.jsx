@@ -5,7 +5,7 @@ const LoggedIn = ({ toggleLogIn }) => {
   return (
     <>
       <h1>Logged in</h1>
-      <Button toggleLogIn={!toggleLogIn} />
+      <Button toggleLogIn={toggleLogIn} />
     </>
   );
 };

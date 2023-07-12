@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import LoggedIn from "./LoggedIn";
 
 const LoggedOut = ({ toggleLogIn }) => {
   return (
